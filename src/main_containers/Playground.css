@@ -1,0 +1,37 @@
+.play-container {
+    box-sizing: border-box; 
+    width: 98%;            
+    height: 98%;           
+    background-color: #343434;
+    overflow-y: auto;     
+    overflow-x: auto;      
+    position: relative;     
+    color: black;
+}
+
+
+.scrollable-content {
+    width: 200%;            /* Pwede nyo to iedit kung naliliitan kayo sa playground */
+    height: 200%;           
+}
+
+/*-- Scroll Bar Custom --*/
+::-webkit-scrollbar{
+    width: 1.2vw;
+    height: 1.2vw;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+    padding-right: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(88, 88, 88);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: gray;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-corner{
+    background: none;
+}
