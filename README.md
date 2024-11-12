@@ -1,7 +1,7 @@
 # CODEase: Legacy Visual Programming
 
 ## I. Project Overview
-A brief description of the purpose of the project and its key features.
+A web-based visual programming simulator that allows users to simply create their own programs in the form of  “blocks”. Users can interact with these blocks through a drag-and-drop function where they can be placed, connected, and manipulated in order to create a program. The entire process of the created program can then be visualized and simulated line-by-line to help users understand how the program works.
 
 ## II. System Architecture
 Provide a high-level overview of the system architecture, including key components and their interactions.
