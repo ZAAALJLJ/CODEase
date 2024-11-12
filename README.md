@@ -1,8 +1,28 @@
-# React + Vite
+I. Project Overview
+A brief description of the purpose of the project and its key features.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+II. System Architecture
+Provide a high-level overview of the system architecture, including key components and their interactions.
 
-Currently, two official plugins are available:
+III. Applied Computer Science Concept
+Explain the core computer science concept applied in the project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+IV. Algorithms Used
+Discuss the algorithms implemented in the project, how they work, and how they are applied.
+
+V. Security Mechanisms
+Discuss the security measures implemented in the project.
+
+VI. Development Process and Design Decisions
+Explain how computer science theory influenced your development decisions.
+
+VII. Correctness and Efficiency
+Explain how you ensured the project’s correctness and efficiency
+
+VIII. How to Run the Project
+Discuss the step-by-step process on how to run your project
+
+IX. Contributors
+Names of contributors, instructor
+
+X. Acknowledgment
