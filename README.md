@@ -1,3 +1,5 @@
+CODEase: Legacy Visual Programming
+
 I. Project Overview
 A brief description of the purpose of the project and its key features.
 
