@@ -24,6 +24,7 @@ export default function Functions({ onBlockAdd }) {
                 <FunctionBlock onClick={() => onBlockAdd(<FunctionBlock />)} />
                 <CallFunction onClick={() => onBlockAdd(<CallFunction />)} />
             </div>
+            <div class="bottom-spacer"></div>
         </div>
     );
 }

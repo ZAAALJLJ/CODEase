@@ -15,7 +15,7 @@ export default function Simulation() {
   };
 
   return (
-    <div className="container">
+    <div className="s-container">
       <div className="left">
         <Functions onBlockAdd={handleBlockAdd} />
       </div>

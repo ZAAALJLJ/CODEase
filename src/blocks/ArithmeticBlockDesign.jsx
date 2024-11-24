@@ -7,7 +7,6 @@ function ArithmeticBlockDesign(){
         <div style={{position: 'relative', width: '200px', height: '30px'}}>
             <img src={block} alt='Block' style={{width: '100%', height: '100%'}}/>
 
-            {/* START TEXT */}
             {/* FIRST INPUT TEXT */}
             <input
             type="text"

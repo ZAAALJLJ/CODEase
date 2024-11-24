@@ -14,7 +14,7 @@ function AddBlockDesign(){
                 position: 'absolute',
                 top: '50%',
                 left: '5%',
-                transform: 'translateY(-50%)', // Adjust position to be vertically centered
+                transform: 'translateY(-50%)',
                 fontSize: '100%',
                 fontWeight: '600',
                 letterSpacing:'0.1rem',
@@ -48,7 +48,7 @@ function AddBlockDesign(){
                 position: 'absolute',
                 top: '50%',
                 left: '72%',
-                transform: 'translateY(-50%)', // Adjust position to be vertically centered
+                transform: 'translateY(-50%)',
                 fontSize: '100%',
                 fontWeight: '600',
                 letterSpacing:'0.1rem',

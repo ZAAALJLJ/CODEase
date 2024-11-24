@@ -1,5 +1,6 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-import menuIcon from "./assets/menu.png";
+import { HashLink } from "react-router-hash-link";
+import './Navbar.css';
 
 export default function Navbar() {
   return (
@@ -8,12 +9,9 @@ export default function Navbar() {
         CODEASE
       </Link>
       <ul>
-        <CustomLink to="/pricing">Pricing</CustomLink>
+        <CustomLink to="/#tutorial-container">Tutorial</CustomLink>
         <CustomLink to="/simulation">Simulation</CustomLink>
-        <CustomLink to="/profile">Profile</CustomLink>
-        <li>
-          <img src={menuIcon} alt="Menu" className="menu-icon" />
-        </li>
+        <CustomLink to="/#about">About</CustomLink>
       </ul>
     </nav>
   )
@@ -24,10 +22,10 @@ function CustomLink({ to, children, ...props }) {
   const isActive = useMatch({ path: resolvedPath.pathname, end: true })
 
   return (
-    <li className={isActive ? "active" : ""}>
-      <Link to={to} {...props}>
+    <li className={isActive ? "" : ""}>
+      <HashLink to={to} {...props}>
         {children}
-      </Link>
+      </HashLink>
     </li>
   )
 }
