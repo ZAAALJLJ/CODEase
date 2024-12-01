@@ -22,7 +22,40 @@
 <p align="justify">Explain how you ensured the project’s correctness and efficiency</p>
 
 ## VIII. How to Run the Project
-<p align="justify">Discuss the step-by-step process on how to run your project</p>
+<p align="justify">Follow these steps to set up and run the project on your local machine:</p>  
+
+1. **Prerequisites**  
+   - Ensure [Node.js](https://nodejs.org/) is installed on your system.  
+   - Download or clone the project files from the repository.
+
+2. **Installing Dependencies**  
+   - Open a terminal and navigate to the `server` subfolder using the command:  
+     ```
+     cd /path-to-project/server
+     ```
+   - Run the following command to install dependencies:  
+     ```
+     npm install
+     ```
+   - Repeat the same process for the `codease` subfolder:  
+     ```
+     cd /path-to-project/codease
+     npm install
+     ```
+
+3. **Running the Project**  
+   - Start the server by navigating to the `server` folder and running:  
+     ```
+     npm start
+     ```
+   - Start the client by navigating to the `codease` folder and running:  
+     ```
+     npm run dev
+     ```
+
+4. **Access the Application**  
+   - Open your browser and navigate to the provided local URL (usually `http://localhost:5173` or as specified in the terminal output).  
+
 
 ## IX. Contributors
 <p><b>Frontend Developer:</b> Agres, Zyrach Adrian</p>
