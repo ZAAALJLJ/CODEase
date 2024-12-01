@@ -7,7 +7,7 @@
 <p align="justify">The main component of CODEase occurs within the SIMULATION page of the website. In the page, the user is presented with 4 sections, the Block Container, Playground, Code Process, and the Output section. Inside the BLOCK CONTAINER section is a collection of selected blocks, each having different functions and interactability relating to computer programming, such as initialize variable, loops, arithmetics, if statements, and such. The central feature of the website is the chracteristic of these blocks to be dragged and dropped inside the PLAYGROUND section. Moreover, the blocks inside this section can be connected and inserted into one another, creating a complete program. Once finished interacting with the blocks, users can click a button to simulate the connected blocks. Doing so would present the user with a detailed process on how the created program works which is illustrated in the CODE PROCESS section. Along this, the output of the created program will also show in the OUTPUT section.</p>
 
 ## III. Applied Computer Science Concept
-<p align="justify">Explain the core computer science concept applied in the project.</p>
+<p align="justify">The core computer science concept applied in CODEase is the idea of programming/coding. . The website also employed its own visual programming language where there are custom blocks that simplifies the typical programming language functions.</p>
 
 ## IV. Algorithms Used
 <p align="justify">Discuss the algorithms implemented in the project, how they work, and how they are applied.</p>
@@ -25,7 +25,10 @@
 <p align="justify">Discuss the step-by-step process on how to run your project</p>
 
 ## IX. Contributors
-<p align="justify">Names of contributors, instructor</p>
+<p><b>Frontend Developer:</b> Agres, Zyrach Adrian</p>
+<p><b>Backend Developer:</b> Guernaldo, Mardyson Justin</p>
+<p><b>Project Manager/Fullstack Developer:</b> Lejano, Nathaniel</p>
+<p><b>Instructor, IT 314 – Web Systems and Technologies:</b> Ms. Fatima Marie P. Agdon, MSCS</p>
 
 ## X. Acknowledgment
-<p align="justify"> </p>
+<p align="justify">LeBron James</p>
