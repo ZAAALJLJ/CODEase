@@ -13,7 +13,7 @@
 <p align="justify">Discuss the algorithms implemented in the project, how they work, and how they are applied.</p>
 
 ## V. Security Mechanisms
-<p align="justify">Discuss the security measures implemented in the project.</p>
+<p align="justify">Proper implementation of input validation can be observed while accessing the website. Along this, data encryption of user inputs was also utilized.</p>
 
 ## VI. Development Process and Design Decisions
 <p align="justify">Explain how computer science theory influenced your development decisions.</p>
