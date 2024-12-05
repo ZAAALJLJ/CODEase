@@ -10,16 +10,16 @@
 <p align="justify">The core computer science concept applied in CODEase is the idea of programming/coding. . The website also employed its own visual programming language where there are custom blocks that simplifies the typical programming language functions.</p>
 
 ## IV. Algorithms Used
-<p align="justify">Discuss the algorithms implemented in the project, how they work, and how they are applied.</p>
+<p align="justify">No particular algorithms were used but different algorithms were used such as in handling movement update of blocks, addition of blocks, and sorting the order of execution of blocks.</p>
 
 ## V. Security Mechanisms
-<p align="justify">Proper implementation of input validation can be observed while accessing the website. Along this, data encryption of user inputs was also utilized.</p>
+<p align="justify">Proper implementation of input validation can be observed while initializing variables for variable block. Along this, data encryption of strings was also implemented as additional security mechanism.</p>
 
 ## VI. Development Process and Design Decisions
 <p align="justify">Explain how computer science theory influenced your development decisions.</p>
 
 ## VII. Correctness and Efficiency
-<p align="justify">Explain how you ensured the project’s correctness and efficiency</p>
+<p align="justify">Made the blocks' connections detection based on distance from another.</p>
 
 ## VIII. How to Run the Project
 <p align="justify">Follow these steps to set up and run the project on your local machine:</p>  
