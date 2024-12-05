@@ -1,40 +1,47 @@
 import '../assets/fonts.css';
-import block from '../assets/functionBlock.png';
+import block from '../assets/forBlock.png';  // Reusing the forBlock image for now
 import { useState } from 'react';
 
-function CallFunctionDesign({functionName, onInputChange}){
-    return(
+function RepeatBlockDesign({ id, onInputsChange, inputs = {} }) {
+    const [iterations, setIterations] = useState(inputs.iterations || '');
+
+    const handleInputChange = (value) => {
+        setIterations(value);
+        onInputsChange?.({
+            iterations: value,
+            type: 'RepeatBlockTop',
+            id: id
+        });
+    };
+
+    return (
         <>
         <div style={{position: 'relative', width: '200px', height: '30px'}}>
             <img src={block} alt='Block' style={{width: '100%', height: '100%'}}/>
-
-            {/* ADD TEXT */}
             <span style={{
                 fontFamily: 'Poppins, sans-serif',
                 color: '#343434',
                 position: 'absolute',
                 top: '50%',
-                left: '5%',
-                transform: 'translateY(-50%)', 
+                left: '10%',
+                transform: 'translateY(-50%)',
                 fontSize: '100%',
                 fontWeight: '600',
-                letterSpacing:'0.08rem',
+                letterSpacing:'0.3rem',
             }}>
-                CALL FUNCTION
+                REPEAT
             </span>
-
-            {/* FIRST INPUT TEXT */}
             <input
                 type="text"
-                value={functionName}
-                onChange={(e) => onInputChange(e.target.value)}
-                placeholder='name'
+                value={iterations}
+                placeholder=''
+                onChange={(e) => handleInputChange(e.target.value)}
                 style={{
                     fontFamily: 'Montserrat, sans-serif',
                     position: 'absolute',
                     top: '15%',
-                    left: '79%',
-                    width: '18%',
+                    left: '60%',
+                    width: '30%',
                     height: '65%',
                     backgroundColor: 'white',
                     border: 'none',
@@ -45,7 +52,7 @@ function CallFunctionDesign({functionName, onInputChange}){
             />
         </div>
         </>
-    )
+    );
 }
 
-export default CallFunctionDesign
+export default RepeatBlockDesign; 

@@ -1,7 +1,15 @@
 import '../assets/fonts.css';
 import block from '../assets/variable.png';
+import { useState } from 'react';
+function RemoveBlockDesign({onInputsChange}){
+    const [arrayName, setArrayName] = useState('');
 
-function RemoveBlockDesign(){
+    const handleInputChange = (value) => {
+        setArrayName(value);
+        onInputsChange?.({ value1: value });  
+        console.log('Remove block input:', value); 
+    };
+
     return(
         <>
         <div style={{position: 'relative', width: '200px', height: '30px'}}>
@@ -26,6 +34,7 @@ function RemoveBlockDesign(){
             <input
             type="text"
             placeholder=''
+            onChange={(e) => handleInputChange(e.target.value)} // send array name to simulatoin
             style={{
                 fontFamily: 'Montserrat, sans-serif',
                 position: 'absolute',

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .title-container {
-    padding: 0.5rem 1rem; 
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .title-container p.title {
@@ -15,7 +17,7 @@
 
 .code-place {
     width: calc(100% - 1rem); 
-    height: 100%; 
+    height: calc(100% - 3rem); 
     padding: 1rem;
     margin: 0 auto; 
     display: flex;
@@ -23,8 +25,13 @@
     background-color: #1d1d1d;
     text-align: center;
     border-radius: 2vh;
-    flex-grow: 1;
     overflow-y: auto;
+    overflow-x: hidden;
     box-sizing: border-box;
+}
+
+.process-step {
+    margin: 0.25rem 0;
+    word-wrap: break-word;
 }
 

@@ -1,7 +1,7 @@
 import '../assets/fonts.css';
 import block from '../assets/variable.png';
 
-function VariableBlockDesign(){
+function VariableBlockDesign({ variableName, setVariableName, variableValue, setVariableValue }){
     return(
         <>
         <div style={{position: 'relative', width: '200px', height: '30px'}}>
@@ -22,25 +22,26 @@ function VariableBlockDesign(){
                 VARIABLE
             </span>
 
-            {/* FIRST INPUT TEXT */}
+            {/* FIRST INPUT TEXT - Variable Name */}
             <input
-            type="text"
-            placeholder=''
-            style={{
-                fontFamily: 'Montserrat, sans-serif',
-                position: 'absolute',
-                top: '15%',
-                left: '53%',
-                width: '18%',
-                height: '65%',
-                backgroundColor: 'white',
-                border: 'none',
-                borderRadius: '20px',
-                textAlign: 'center',
-                fontSize: '10px'
-            }}/>
+                type="text"
+                placeholder=''
+                value={variableName}
+                onChange={(e) => setVariableName(e.target.value)}
+                style={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    position: 'absolute',
+                    top: '15%',
+                    left: '53%',
+                    width: '18%',
+                    height: '65%',
+                    backgroundColor: 'white',
+                    border: 'none',
+                    borderRadius: '20px',
+                    textAlign: 'center',
+                    fontSize: '10px'
+                }}/>
 
-            
             {/* = TEXT */}
             <span style={{
                 fontFamily: 'Poppins, sans-serif',
@@ -56,23 +57,25 @@ function VariableBlockDesign(){
                 =
             </span>
 
-            {/* SECOND INPUT TEXT */}
+            {/* SECOND INPUT TEXT - Variable Value */}
             <input
-            type="text"
-            placeholder=''
-            style={{
-                fontFamily: 'Montserrat, sans-serif',
-                position: 'absolute',
-                top: '15%',
-                left: '79%',
-                width: '18%',
-                height: '65%',
-                backgroundColor: 'white',
-                border: 'none',
-                borderRadius: '20px',
-                textAlign: 'center',
-                fontSize: '10px'
-            }}/>
+                type="text"
+                placeholder=''
+                value={variableValue}
+                onChange={(e) => setVariableValue(e.target.value)}
+                style={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    position: 'absolute',
+                    top: '15%',
+                    left: '79%',
+                    width: '18%',
+                    height: '65%',
+                    backgroundColor: 'white',
+                    border: 'none',
+                    borderRadius: '20px',
+                    textAlign: 'center',
+                    fontSize: '10px'
+                }}/>
         </div>
         </>
     )

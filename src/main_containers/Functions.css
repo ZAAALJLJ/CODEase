@@ -15,6 +15,13 @@
     opacity: 0.4;
 }
 
+.functions-container {
+    padding: 0.5rem 1rem;
+    height: 100vh; 
+    overflow-y: auto; 
+    padding-bottom: 3rem; 
+}
+
 .functions-place {
     width: 100%;                         
     display: flex;
