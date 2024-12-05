@@ -994,33 +994,24 @@ export default function Simulation() {
         console.log('Final program state:', result);
     };
 
-    return (
-        <div className="container">
-            <div className="left">
-                <Functions onBlockAdd={handleBlockAdd} />
-            </div>
-            <div className="center">
-                <Playground 
-                    blocks={blocks}
-                    blockInputs={blockInputs}
-                    onInputsChange={handleInputsChange} 
-                    onBlockMove={handleBlockMove} 
-                />
-            </div>
-            <div className="right">
-                <div className="top">
-                    <CodeProcess processSteps={processSteps} />
-                </div>
-                <div className="buttons-container">
-                    <button onClick={handleRunClick}>Run</button>
-                    <button onClick={handleClearBlocks}>Clear All</button>
-                </div>
-                <div className="bottom">
-                    <Output executionOutput={outputSteps} />
-                </div>
-            </div>
+  return (
+    <div className="s-container">
+      <div className="left">
+        <Functions onBlockAdd={handleBlockAdd} />
+      </div>
+      <div className="center">
+        <Playground blocks={blocks} />
+      </div>
+      <div className="right">
+        <div className="top">
+          <CodeProcess />
         </div>
-    );
+        <div className="bottom">
+          <Output />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 

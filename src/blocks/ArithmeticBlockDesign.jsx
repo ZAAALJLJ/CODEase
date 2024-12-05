@@ -7,6 +7,7 @@ const ArithmeticBlockDesign = ({ input1, setInput1, operation, setOperation, inp
         <div style={{ position: 'relative', width: '200px', height: '30px' }}>
             <img src={block} alt='Block' style={{ width: '100%', height: '100%' }}/>
 
+            {/* FIRST INPUT TEXT */}
             <input
                 type="text"
                 value={input1}
