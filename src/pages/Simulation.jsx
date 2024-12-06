@@ -1022,5 +1022,3 @@ export default function Simulation() {
         </div>
     );
 }
-
-
