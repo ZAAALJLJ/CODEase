@@ -1,12 +1,11 @@
 import React from 'react';
-import FunctionBlockDesign from './FunctionBlockDesign';
+import RepeatBlockDesign from './RepeatBlockDesign';
 
-
-const FunctionBlock = ({ id, onClick, onInputsChange }) => {
+const RepeatBlockTop = ({ id, onClick, onInputsChange }) => {
     return (
         <div onClick={onClick} style={{ display: 'flex', alignItems: 'flex-start' }}>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-                <FunctionBlockDesign 
+                <RepeatBlockDesign 
                     id={id}
                     onInputsChange={onInputsChange}
                 />
@@ -15,5 +14,4 @@ const FunctionBlock = ({ id, onClick, onInputsChange }) => {
     );
 };
 
-export default FunctionBlock;
-
+export default RepeatBlockTop;
