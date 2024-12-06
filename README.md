@@ -10,7 +10,7 @@
 <p align="justify">The core computer science concept applied in CODEase is the idea of programming/coding. The website also employed its own visual programming language where there are custom blocks that simplifies the typical programming language functions.</p>
 
 ## IV. Algorithms Used
-<p align="justify">No particular algorithms were used but different algorithms were used such as in handling movement update of blocks, addition of blocks, and sorting the order of execution of blocks.</p>
+<p align="justify">No particular algorithms were used, but different algorithms were used such as in handling movement update of blocks, addition of blocks, and sorting the order of execution of blocks.</p>
 
 ## V. Security Mechanisms
 <p align="justify">Proper implementation of input validation can be observed while initializing variables for variable block. Along this, data encryption of strings was also implemented as additional security mechanism.</p>
