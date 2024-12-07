@@ -791,9 +791,7 @@ export default function Simulation() {
                         let arrayName = inputs.value1?.trim();
                         let element = inputs.value2;
 
-                        if (arrayName in programVariables) {
-                            arrayName = programVariables[arrayName];
-                        }
+                        const targetArray = arrayName in programVariables ? arrayName : arrayName; // fixed checker
 
                         if (element in programVariables) {
                             element = programVariables[element];
