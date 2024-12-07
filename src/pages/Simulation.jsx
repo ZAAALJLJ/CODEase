@@ -972,7 +972,6 @@ export default function Simulation() {
     
                             const removedElement = programVariables[arrayName].pop();
                             process.push(`Removed ${removedElement} from ${arrayName}`);
-                            process.push(`${arrayName} = [${programVariables[arrayName]}]`);
                         } catch (error) {
                             process.push(`Error: ${error.message}`);
                         }
