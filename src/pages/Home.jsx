@@ -3,6 +3,8 @@ import fbImage from '../assets/footer_assets/face.png';
 import ghImage from '../assets/footer_assets/gh.png';
 import igImage from '../assets/footer_assets/ig.png';
 import xImage from '../assets/footer_assets/x.png';
+import visualize from '../assets/visualize.png';
+import tutorialVideo from '../assets/tutorial.mp4';
 import { motion, useInView } from 'framer-motion';
 import './Home.css';
 
@@ -47,6 +49,7 @@ export default function Home() {
       >
         <h1>visualize it.</h1>
         <p>Welcome to our website, where beginners use simple visual "codes" to learn the basics of programming. It's an easy and fun way to grasp foundational coding concepts.</p>
+        <img src={visualize} alt="Visual representation" className="visualive-image" />
       </motion.div>
 
       <div className="tp-wrapper">
@@ -81,6 +84,12 @@ export default function Home() {
         <p className='second-tutorial learn'><b>LEARN</b></p>
         <p className='second-tutorial apply'><b>APPLY</b></p>
         <p className='third-tutorial'>This tutorial helps beginners grasp programming basics through intuitive visual blocks. It provides an engaging and straightforward approach to learning core coding principles.</p>
+        <div className='video-container'>
+          <video controls>
+            <source src={tutorialVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
 
       <div className='footer-container'>
