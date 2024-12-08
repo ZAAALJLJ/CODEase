@@ -64,4 +64,4 @@
 <p><b>Instructor, IT 314 – Web Systems and Technologies:</b> Ms. Fatima Marie P. Agdon, MSCS</p>
 
 ## X. Acknowledgment
-<p align="justify">We would like to express our gratitude to our professor, Ms. Fatima Marie P. Agdon for her guidance, creative lectures, and feedbacks.</p>
+<p align="justify">We would like to express our gratitude to our professor and course facilitator, Ms. Fatima Marie P. Agdon for her guidance, creative lectures, and feedbacks.</p>
