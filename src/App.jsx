@@ -11,6 +11,7 @@ function App() {
       <Navbar />
       <div className="container">
         <Routes>
+          <Route path="/CODEase" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/simulation" element={<Simulation />} />
